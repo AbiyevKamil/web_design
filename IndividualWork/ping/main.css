@@ -78,18 +78,22 @@ input {
     width: 30px;
     height: 30px;
     margin: 0 10px;
+    text-align: center;
+    padding: 20px auto;
+    position: relative;
 }
 
 .social-list a i {
-    text-decoration: none;
-    font-size: 15px;
-    left: 50%;
+    position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
     color: hsl(223, 87%, 63%);
 }
 
 .copyright {
-    margin: 20px;
+    margin: 30px;
     font-size: 13px;
     color: hsl(0, 0%, 59%);
 }
@@ -116,10 +120,7 @@ input {
     .dashboard img {
         width: 25rem;
     }
-
-    .social-list a i {
-        padding: 5px 0 0 0;
-    }
+    
 }
 
 @media (max-width:575px) {
@@ -154,7 +155,6 @@ input {
     }
 
     .dashboard img {
-
         width: 18rem;
     }
 
@@ -181,6 +181,7 @@ input {
     }
 
     .dashboard img {
+
         width: 16rem;
     }
 
